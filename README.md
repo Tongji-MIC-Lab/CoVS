@@ -27,7 +27,7 @@ In the proposed CoVS framework, the PTDVTA decoder consists of the aforementione
 The overall performance of the proposed CoVS on the VIST test set against the state-of-the-art methods is shown in Table I, where the best result in each column is marked in bold and the second-best result is underlined. The term ‘RL’ means that the training model takes a reinforcement learning algorithm. The term ‘IRL’ denotes that the inverse reinforcement learning algorithm is used. For simplicity, B-*n* is utilized to denote the *n*-gram B score. The term ‘-’ indicates that the score is not provided by the respective method. As presented in Table I, it is evident that the proposed CoVS outperforms the competing methods in terms of five evaluation metrics on the VIST test set.
 
 <p align="center">
-<font>Table 1 Comparison of the proposed CoVS against other state-of-the-art methods on the VIST test set</font><br/>
+<font>Table I Comparison of the proposed CoVS against other state-of-the-art methods on the VIST test set</font><br/>
 <image src="source/fig3.png" width="550">
 </p>
 
@@ -36,7 +36,7 @@ The overall performance of the proposed CoVS on the VIST test set against the st
 The contribution of each component in CoVS is presented in Table II. Specifically, the symbol ‘×’ indicates that the corresponding component is disabled, while the symbol ‘√’ is the opposite. Note that when ISENet is disabled, the BiGRU is applied to transform the image sequence features. And if PTDVTA is disabled, a single-layer LSTM model is directly used to replace it.
 
 <p align="center">
-<font>Table 2 Ablation study of the contributions of CoVS on the VIST test set</font><br/>
+<font>Table II Ablation study of the contributions of CoVS on the VIST test set</font><br/>
 <image src="source/fig4.png" width="580">
 </p>
 
