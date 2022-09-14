@@ -54,3 +54,4 @@ The effectiveness of CoVS is further examined by comparing it to GT and baseline
 Please cite the following paper if you use the code or feel it useful:
 
 Jinjing Gu, Hanli Wang, Ruichao Fan. Coherent Visual Storytelling via Parallel Top-Down Visual and Topic Attention, IEEE Transactions on Circuits and Systems for Video Technology, accepted, 2022.
+
